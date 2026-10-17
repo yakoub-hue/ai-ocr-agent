@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Base de traçabilité des BDC (données clients, PDF) : jamais sur GitHub
+donnees/

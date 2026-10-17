@@ -1,0 +1,13 @@
+# Versions figées (environnement de développement). Python >= 3.10.
+# Tesseract 5 + fra.traineddata doivent aussi être installés (voir README).
+pymupdf==1.28.2
+opencv-python-headless==5.0.0.93
+numpy==2.5.3
+pytesseract==0.3.13
+rapidocr_onnxruntime==1.2.3
+onnxruntime==1.29.0
+pandas==3.0.5
+pillow==12.3.0
+streamlit==1.65.0
+google-genai==2.30.0
+psycopg[binary]==3.3.6
