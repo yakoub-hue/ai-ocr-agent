@@ -1,0 +1,130 @@
+{
+  "fichier": "BDC_04_mission_sols_fax_n1.pdf",
+  "client": {
+    "raison_sociale": "Mission Sols & Territoires",
+    "adresse": "7 place du Marché",
+    "cp": "59570",
+    "ville": "ARVELLES",
+    "telephone": "03 53 01 77 20",
+    "email": "obs.sols@mst-asso.fr",
+    "contact": "Karim BENSALEM",
+    "siret": "44930217600034"
+  },
+  "commande": {
+    "numero": "MST/2026/118",
+    "date": "2026-09-25",
+    "delai": "standard_10j",
+    "annule_et_remplace": "2026-09-22",
+    "facturation": "Mission Sols & Territoires, convention 2026-04.",
+    "remarques": "rapport PDF + export CSV à obs.sols@mst-asso.fr. Merci de détruire le BDC du 22/09/2026 (erreur sur les profondeurs)."
+  },
+  "site": {
+    "commune": "Arvelles",
+    "cp": "59570",
+    "lieu_dit": "Le Haut Pavé",
+    "parcelles": [
+      "ZC 8",
+      "ZC 9"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-09-24",
+    "preleveur": "S. LEFORT"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "MST-118-A1",
+      "parcelle": null,
+      "profondeur_cm": "0-5",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": "bord de champ, 5 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-118-A2",
+      "parcelle": null,
+      "profondeur_cm": "0-5",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": "25 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-118-A3",
+      "parcelle": null,
+      "profondeur_cm": "0-5",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": "50 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-118-B1",
+      "parcelle": null,
+      "profondeur_cm": "0-20",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "bord de champ, 5 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-118-B2",
+      "parcelle": null,
+      "profondeur_cm": "0-20",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "25 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-118-B3",
+      "parcelle": null,
+      "profondeur_cm": "0-20",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "50 m de la route"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-09-26",
+    "temperature_c": null,
+    "annotations": [
+      "Saisi le 26/09 · H.D. · remplace dossier 26-0922-03"
+    ]
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "remplacement",
+      "niveau": "avertissement"
+    }
+  ]
+}

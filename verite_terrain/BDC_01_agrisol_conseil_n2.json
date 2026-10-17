@@ -1,0 +1,144 @@
+{
+  "fichier": "BDC_01_agrisol_conseil_n2.pdf",
+  "client": {
+    "raison_sociale": "AGRISOL CONSEIL",
+    "adresse": "4 rue des Semailles",
+    "cp": "37190",
+    "ville": "VERNOUILLE-SUR-INDRE",
+    "telephone": "02 61 91 23 58",
+    "email": "contact@agrisol-conseil.fr",
+    "contact": "Mathilde ROUSSEAU",
+    "siret": "81246639200018"
+  },
+  "commande": {
+    "numero": "AGS-2026-0527",
+    "date": "2026-05-27",
+    "delai": "urgent_J+5",
+    "annule_et_remplace": null,
+    "facturation": "AGRISOL CONSEIL (adresse ci-dessus), bon interne n° 26-0527.",
+    "remarques": "résultats par e-mail (rapport PDF + fichier CSV). Prévenir avant toute sous-traitance."
+  },
+  "site": {
+    "commune": "Montbazière",
+    "cp": "37250",
+    "lieu_dit": "Les Grandes Ouches",
+    "parcelles": [
+      "YD 50",
+      "ZA 93"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-05-27",
+    "preleveur": "M. ROUSSEAU"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "AGS-0527-01",
+      "parcelle": "YD 50",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "Zone de brûlage"
+    },
+    {
+      "ref_echantillon": "AGS-0527-02",
+      "parcelle": "ZA 93",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "AGS-0527-03",
+      "parcelle": "YD 50",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "MS"
+      ],
+      "hap_demande": false,
+      "observations": "Point près du fossé"
+    },
+    {
+      "ref_echantillon": "AGS-0527-04",
+      "parcelle": "YD 50",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "Point près du fossé"
+    },
+    {
+      "ref_echantillon": "AGS-0527-05",
+      "parcelle": "ZA 93",
+      "profondeur_cm": "0-20",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "Nombreux cailloux"
+    },
+    {
+      "ref_echantillon": "AGS-0527-06",
+      "parcelle": "ZA 93",
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": "Zone de brûlage"
+    },
+    {
+      "ref_echantillon": "AGS-0527-07",
+      "parcelle": "YD 50",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-05-28",
+    "temperature_c": 5,
+    "annotations": [
+      "REVUE DE CONTRAT C. MOREL",
+      "T° = 5 °C · 7 flacons OK",
+      "Urgent série GC-MS du 29/05"
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": "AGS-0527-06",
+      "champ": "profondeur_cm",
+      "avant": "0-15",
+      "apres": "30-60"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

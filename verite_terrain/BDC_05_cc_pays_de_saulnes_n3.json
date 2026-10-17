@@ -1,0 +1,89 @@
+{
+  "fichier": "BDC_05_cc_pays_de_saulnes_n3.pdf",
+  "client": {
+    "raison_sociale": "Communauté de communes du Pays de Saulnes",
+    "adresse": "1 rue de la Mairie",
+    "cp": "52230",
+    "ville": "SAULNES-LA-CÔTE",
+    "telephone": "03 53 01 12 40",
+    "email": "environnement@cc-paysdesaulnes.fr",
+    "contact": "Élodie VASSEUR",
+    "siret": "20007156400015"
+  },
+  "commande": {
+    "numero": "ENV-2026-MF-09",
+    "date": "2026-05-26",
+    "delai": "standard_10j",
+    "annule_et_remplace": null,
+    "facturation": "bon de commande interne n° BC-2026-0657",
+    "remarques": null
+  },
+  "site": {
+    "commune": null,
+    "cp": null,
+    "lieu_dit": "L'ancien dépôt communal",
+    "parcelles": [
+      "ZH 58"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-05-25",
+    "preleveur": "Élodie VASSEUR"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "MF-09-P1",
+      "parcelle": "ZH 58",
+      "profondeur_cm": "0-30",
+      "matrice": "Terre végétale",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "ZH 58, près de l'ancien four"
+    },
+    {
+      "ref_echantillon": "MF-09-P2",
+      "parcelle": "ZH 58",
+      "profondeur_cm": "0-30",
+      "matrice": "Terre végétale",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "ZH 58, zone ouest"
+    },
+    {
+      "ref_echantillon": "MF-09-P3",
+      "parcelle": "ZH 58",
+      "profondeur_cm": "0-20",
+      "matrice": "Terre végétale",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "ZH 58, zone nord"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-05-27",
+    "temperature_c": null,
+    "annotations": [
+      "REVUE DE CONTRAT N. FERRAND",
+      "26ORV007468",
+      "Échéance : 10/06/2026"
+    ]
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "fichier": "BDC_01_agrisol_conseil_n4.pdf",
+  "client": {
+    "raison_sociale": "AGRISOL CONSEIL",
+    "adresse": "4 rue des Semailles",
+    "cp": "37190",
+    "ville": "VERNOUILLE-SUR-INDRE",
+    "telephone": "02 61 91 23 58",
+    "email": "contact@agrisol-conseil.fr",
+    "contact": "Paul VERDIER",
+    "siret": "81246639200018"
+  },
+  "commande": {
+    "numero": "AGS-2026-0625",
+    "date": "2026-06-25",
+    "delai": "express_72h",
+    "annule_et_remplace": null,
+    "facturation": "AGRISOL CONSEIL (adresse ci-dessus), bon interne n° 26-0625.",
+    "remarques": "résultats par e-mail (rapport PDF + fichier CSV). Prévenir avant toute sous-traitance."
+  },
+  "site": {
+    "commune": "Vernouille-sur-Indre",
+    "cp": "37190",
+    "lieu_dit": "Les Terres Noires",
+    "parcelles": [
+      "YD 19",
+      "YD 29",
+      "ZB 85"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-06-23",
+    "preleveur": "P. VERDIER"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "AGS-0625-01",
+      "parcelle": "YD 29",
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "AGS-0625-02",
+      "parcelle": "YD 29",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "Témoin bordure"
+    },
+    {
+      "ref_echantillon": "AGS-0625-03",
+      "parcelle": "ZB 85",
+      "profondeur_cm": "0-20",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "Point près du fossé"
+    },
+    {
+      "ref_echantillon": "AGS-0625-04",
+      "parcelle": "ZB 85",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "Point près du fossé"
+    },
+    {
+      "ref_echantillon": "AGS-0625-05",
+      "parcelle": "ZB 85",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": null
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-06-29",
+    "temperature_c": 6,
+    "annotations": [
+      "REVUE DE CONTRAT C. MOREL",
+      "T° = 6 °C · 5 flacons OK",
+      "Urgent série GC-MS du 30/06"
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": "AGS-0625-03",
+      "champ": "profondeur_cm",
+      "avant": "0-25",
+      "apres": "0-20"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "conservation",
+      "niveau": "avertissement"
+    }
+  ]
+}

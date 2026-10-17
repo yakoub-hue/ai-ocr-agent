@@ -1,0 +1,184 @@
+{
+  "fichier": "BDC_02_coop_val_de_brenne_n2.pdf",
+  "client": {
+    "raison_sociale": "Coopérative agricole du Val de Brenne",
+    "adresse": "Route de Saint-Aignan, ZA des Moissons",
+    "cp": "41140",
+    "ville": "BRENNEVAL",
+    "telephone": "02 61 91 77 04",
+    "email": "agronomie@valdebrenne-coop.fr",
+    "contact": "Julien MARCHETTI",
+    "siret": "78125490300026"
+  },
+  "commande": {
+    "numero": "VB-26-0629",
+    "date": "2026-08-05",
+    "delai": "urgent_J+5",
+    "annule_et_remplace": null,
+    "facturation": "Coopérative agricole du Val de Brenne, compte client 41-0087",
+    "remarques": "Résultats à adresser à : agronomie@valdebrenne-coop.fr (copie aux adhérents concernés)"
+  },
+  "site": {
+    "commune": null,
+    "cp": null,
+    "lieu_dit": null,
+    "parcelles": [
+      "B 279",
+      "B 346",
+      "Îlot 5",
+      "ZK 88",
+      "Îlot 11",
+      "Îlot 2",
+      "ZK 93",
+      "Îlot 4"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-08-02",
+    "preleveur": null
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "VB-0629-01",
+      "parcelle": "B 279",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0629-02",
+      "parcelle": "B 346",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "sol hydromorphe"
+    },
+    {
+      "ref_echantillon": "VB-0629-03",
+      "parcelle": "Îlot 5",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0629-04",
+      "parcelle": "ZK 88",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM",
+        "pH"
+      ],
+      "hap_demande": true,
+      "observations": "près d'un ancien brûlage"
+    },
+    {
+      "ref_echantillon": "VB-0629-05",
+      "parcelle": "Îlot 11",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "pH"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0629-06",
+      "parcelle": "Îlot 2",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "pH"
+      ],
+      "hap_demande": true,
+      "observations": "ancien dépôt de mâchefers"
+    },
+    {
+      "ref_echantillon": "VB-0629-07",
+      "parcelle": "Îlot 11",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "MS",
+        "pH"
+      ],
+      "hap_demande": false,
+      "observations": "parcelle drainée"
+    },
+    {
+      "ref_echantillon": "VB-0629-08",
+      "parcelle": "ZK 93",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "MS",
+        "ETM",
+        "pH"
+      ],
+      "hap_demande": false,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0629-09",
+      "parcelle": "Îlot 4",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "sol hydromorphe"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-08-06",
+    "temperature_c": 5,
+    "annotations": [
+      "9 éch. reçus · glacière 5 °C · H.D."
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": "VB-0629-08",
+      "champ": "hap_demande",
+      "avant": true,
+      "apres": false
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "conservation",
+      "niveau": "avertissement"
+    }
+  ]
+}

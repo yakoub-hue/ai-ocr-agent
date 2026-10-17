@@ -1,0 +1,123 @@
+{
+  "fichier": "BDC_06_ecotellus_liasse_n2.pdf",
+  "client": {
+    "raison_sociale": "Ecotellus Environnement",
+    "adresse": "21 avenue des Platanes",
+    "cp": "33610",
+    "ville": "Cestas-les-Pins",
+    "telephone": "05 36 49 30 12",
+    "email": null,
+    "contact": "T. Renaudin",
+    "siret": "79412035800029"
+  },
+  "commande": {
+    "numero": "004619",
+    "date": "2026-08-18",
+    "delai": "urgent_J+5",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": null
+  },
+  "site": {
+    "commune": "Langoiran-Ht",
+    "cp": "33550",
+    "lieu_dit": "Bel-Air",
+    "parcelles": [
+      "BC 55"
+    ]
+  },
+  "prelevement": {
+    "date": null,
+    "preleveur": null
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "ECO-4619-1",
+      "parcelle": null,
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "témoin hors parcelle"
+    },
+    {
+      "ref_echantillon": "ECO-4619-2",
+      "parcelle": null,
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "rang 47"
+    },
+    {
+      "ref_echantillon": "ECO-4619-3",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "témoin hors parcelle"
+    },
+    {
+      "ref_echantillon": "ECO-4619-4",
+      "parcelle": null,
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "sous ECO-4619-3"
+    },
+    {
+      "ref_echantillon": "ECO-4619-5",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "tête de rang"
+    },
+    {
+      "ref_echantillon": "ECO-4619-6",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": "bord de fossé"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-08-19",
+    "temperature_c": null,
+    "annotations": []
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "prelevement_date",
+      "niveau": "avertissement"
+    }
+  ]
+}

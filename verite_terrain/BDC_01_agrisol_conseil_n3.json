@@ -1,0 +1,106 @@
+{
+  "fichier": "BDC_01_agrisol_conseil_n3.pdf",
+  "client": {
+    "raison_sociale": "AGRISOL CONSEIL",
+    "adresse": "4 rue des Semailles",
+    "cp": "37190",
+    "ville": "VERNOUILLE-SUR-INDRE",
+    "telephone": "02 61 91 23 58",
+    "email": "contact@agrisol-conseil.fr",
+    "contact": "Mathilde ROUSSEAU",
+    "siret": "81246639200018"
+  },
+  "commande": {
+    "numero": "AGS-2026-0602",
+    "date": "2026-06-02",
+    "delai": "standard_10j",
+    "annule_et_remplace": null,
+    "facturation": "AGRISOL CONSEIL (adresse ci-dessus), bon interne n° 26-0602.",
+    "remarques": "résultats par e-mail (rapport PDF + fichier CSV). Prévenir avant toute sous-traitance."
+  },
+  "site": {
+    "commune": "Saint-Ormel",
+    "cp": "37310",
+    "lieu_dit": "Les Varennes",
+    "parcelles": [
+      "YD 113",
+      "ZA 186",
+      "ZA 204"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-06-01",
+    "preleveur": "M. ROUSSEAU"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "AGS-0602-01",
+      "parcelle": "ZA 204",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "AGS-0602-02",
+      "parcelle": "ZA 186",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "Témoin bordure"
+    },
+    {
+      "ref_echantillon": "AGS-0602-03",
+      "parcelle": "ZA 204",
+      "profondeur_cm": "0-20",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "AGS-0602-04",
+      "parcelle": "ZA 186",
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": null
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-06-05",
+    "temperature_c": 4,
+    "annotations": [
+      "REVUE DE CONTRAT C. MOREL",
+      "T° = 4 °C · 4 flacons OK",
+      "série GC-MS du 08/06"
+    ]
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "conservation",
+      "niveau": "avertissement"
+    }
+  ]
+}

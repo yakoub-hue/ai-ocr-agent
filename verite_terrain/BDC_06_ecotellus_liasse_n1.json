@@ -1,0 +1,105 @@
+{
+  "fichier": "BDC_06_ecotellus_liasse_n1.pdf",
+  "client": {
+    "raison_sociale": "Ecotellus Environnement",
+    "adresse": "21 avenue des Platanes",
+    "cp": "33610",
+    "ville": "Cestas-les-Pins",
+    "telephone": "05 36 49 30 12",
+    "email": null,
+    "contact": "T. Renaudin",
+    "siret": "79412035800029"
+  },
+  "commande": {
+    "numero": "004587",
+    "date": "2026-09-30",
+    "delai": "urgent_J+5",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": null
+  },
+  "site": {
+    "commune": "St-Vernac",
+    "cp": "33580",
+    "lieu_dit": "Route des Graves",
+    "parcelles": [
+      "AK 77",
+      "AK 78"
+    ]
+  },
+  "prelevement": {
+    "date": null,
+    "preleveur": null
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "ECO-4587-1",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "inter-rang, rang 12"
+    },
+    {
+      "ref_echantillon": "ECO-4587-2",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "rang 40"
+    },
+    {
+      "ref_echantillon": "ECO-4587-3",
+      "parcelle": null,
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": "sous ECO-4587-2"
+    },
+    {
+      "ref_echantillon": "ECO-4587-5",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "témoin hors parcelle"
+    }
+  ],
+  "echantillons_annules": [
+    {
+      "ref_echantillon": "ECO-4587-4",
+      "motif": "annulé (flacon cassé)"
+    }
+  ],
+  "reception_labo": {
+    "date": "2026-10-01",
+    "temperature_c": null,
+    "annotations": []
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "prelevement_date",
+      "niveau": "avertissement"
+    }
+  ]
+}

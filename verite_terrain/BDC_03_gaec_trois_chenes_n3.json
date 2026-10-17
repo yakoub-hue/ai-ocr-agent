@@ -1,0 +1,83 @@
+{
+  "fichier": "BDC_03_gaec_trois_chenes_n3.pdf",
+  "client": {
+    "raison_sociale": "EARL du Petit Bois",
+    "adresse": "3 chemin des Noues",
+    "cp": "18190",
+    "ville": "Vallon-sur-Arnon",
+    "telephone": "06 39 98 31 64",
+    "email": "earl.petitbois@courriel-agri.fr",
+    "contact": "Jérôme Petitbois",
+    "siret": "53290461700011"
+  },
+  "commande": {
+    "numero": null,
+    "date": "2026-09-11",
+    "delai": "express_72h",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": null
+  },
+  "site": {
+    "commune": "Vallon-sur-Arnon",
+    "cp": null,
+    "lieu_dit": "Le Champ du Four",
+    "parcelles": [
+      "B 18",
+      "B 30"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-09-11",
+    "preleveur": "J. Petitbois"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "PB-1",
+      "parcelle": null,
+      "profondeur_cm": "0-20",
+      "matrice": "jachère",
+      "analyses": [
+        "HAP16",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "PB-2",
+      "parcelle": null,
+      "profondeur_cm": "30-50",
+      "matrice": "terre labourée",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "bord de chemin"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-09-14",
+    "temperature_c": null,
+    "annotations": [
+      "N° dossier 26-0914-10"
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": null,
+      "champ": "prelevement.date",
+      "avant": null,
+      "apres": "2026-09-11"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

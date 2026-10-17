@@ -1,0 +1,76 @@
+{
+  "fichier": "BDC_05_cc_pays_de_saulnes_n4.pdf",
+  "client": {
+    "raison_sociale": "Communauté de communes du Pays de Saulnes",
+    "adresse": "1 rue de la Mairie",
+    "cp": "52230",
+    "ville": "SAULNES-LA-CÔTE",
+    "telephone": "03 53 01 12 40",
+    "email": "environnement@cc-paysdesaulnes.fr",
+    "contact": "Marc DELAUNAY",
+    "siret": "20007156400015"
+  },
+  "commande": {
+    "numero": "ENV-2026-VP-14",
+    "date": "2026-08-05",
+    "delai": "urgent_J+5",
+    "annule_et_remplace": null,
+    "facturation": "bon de commande interne n° BC-2026-0728",
+    "remarques": "le chantier démarrant prochainement"
+  },
+  "site": {
+    "commune": null,
+    "cp": null,
+    "lieu_dit": "La friche de l'ancienne gare",
+    "parcelles": [
+      "AC 112"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-08-04",
+    "preleveur": "Marc DELAUNAY"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "VP-14-P1",
+      "parcelle": "AC 112",
+      "profondeur_cm": "0-30",
+      "matrice": "Terre végétale",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "AC 112, près de l'ancien four"
+    },
+    {
+      "ref_echantillon": "VP-14-P2",
+      "parcelle": "AC 112",
+      "profondeur_cm": "0-30",
+      "matrice": "Terre végétale",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "AC 112, zone ouest"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-08-06",
+    "temperature_c": null,
+    "annotations": [
+      "REVUE DE CONTRAT H. DESSAINT",
+      "26ORV004427",
+      "Échéance : 20/08/2026"
+    ]
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

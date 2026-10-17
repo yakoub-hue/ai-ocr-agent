@@ -1,0 +1,100 @@
+{
+  "fichier": "BDC_06_ecotellus_liasse_n4.pdf",
+  "client": {
+    "raison_sociale": "Ecotellus Environnement",
+    "adresse": "21 avenue des Platanes",
+    "cp": "33610",
+    "ville": "Cestas-les-Pins",
+    "telephone": "05 36 49 30 12",
+    "email": null,
+    "contact": "T. Renaudin",
+    "siret": "79412035800029"
+  },
+  "commande": {
+    "numero": "004648",
+    "date": "2026-09-28",
+    "delai": "express_72h",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": null
+  },
+  "site": {
+    "commune": "Pujols-le-Bas",
+    "cp": "47300",
+    "lieu_dit": "Le Pech",
+    "parcelles": [
+      "D 49",
+      "D 142"
+    ]
+  },
+  "prelevement": {
+    "date": null,
+    "preleveur": null
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "ECO-4648-1",
+      "parcelle": null,
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": "près du chai"
+    },
+    {
+      "ref_echantillon": "ECO-4648-2",
+      "parcelle": null,
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "rang 36"
+    },
+    {
+      "ref_echantillon": "ECO-4648-3",
+      "parcelle": null,
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "bord de fossé"
+    }
+  ],
+  "echantillons_annules": [
+    {
+      "ref_echantillon": "ECO-4648-4",
+      "motif": "annulé (flacon cassé)"
+    }
+  ],
+  "reception_labo": {
+    "date": "2026-09-29",
+    "temperature_c": null,
+    "annotations": []
+  },
+  "ratures": [
+    {
+      "echantillon": "ECO-4648-2",
+      "champ": "profondeur_cm",
+      "avant": "0-20",
+      "apres": "30-60"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "prelevement_date",
+      "niveau": "avertissement"
+    }
+  ]
+}

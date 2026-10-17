@@ -1,0 +1,85 @@
+{
+  "fichier": "BDC_03_gaec_trois_chenes_n2.pdf",
+  "client": {
+    "raison_sociale": "GAEC des Trois Chênes",
+    "adresse": "La Brosse Haute",
+    "cp": "18320",
+    "ville": "Saint-Firmin-des-Prés",
+    "telephone": "06 39 98 52 17",
+    "email": "gaec.3chenes@courriel-agri.fr",
+    "contact": "Lucie Dumarais",
+    "siret": "53081726400011"
+  },
+  "commande": {
+    "numero": null,
+    "date": "2026-10-01",
+    "delai": "express_72h",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": null
+  },
+  "site": {
+    "commune": "Saint-Firmin-des-Prés",
+    "cp": null,
+    "lieu_dit": "Les Chaumes",
+    "parcelles": [
+      "A 55",
+      "A 92"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-10-01",
+    "preleveur": "L. Dumarais"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "TC-1",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "jachère",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": "ancien tas de fumier"
+    },
+    {
+      "ref_echantillon": "TC-2",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "jachère",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "ancien tas de fumier"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-10-05",
+    "temperature_c": null,
+    "annotations": [
+      "N° dossier 26-1005-12"
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": null,
+      "champ": "telephone",
+      "avant": "06 39 98 52 71",
+      "apres": "06 39 98 52 17"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "conservation",
+      "niveau": "avertissement"
+    }
+  ]
+}

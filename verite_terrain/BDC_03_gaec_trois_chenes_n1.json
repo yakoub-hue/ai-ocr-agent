@@ -1,0 +1,118 @@
+{
+  "fichier": "BDC_03_gaec_trois_chenes_n1.pdf",
+  "client": {
+    "raison_sociale": "GAEC des Trois Chênes",
+    "adresse": "La Brosse Haute",
+    "cp": "18320",
+    "ville": "Saint-Firmin-des-Prés",
+    "telephone": "06 39 98 52 17",
+    "email": "gaec.3chenes@courriel-agri.fr",
+    "contact": "Lucie Dumarais",
+    "siret": "53081726400011"
+  },
+  "commande": {
+    "numero": null,
+    "date": "2026-09-22",
+    "delai": "standard_10j",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": null
+  },
+  "site": {
+    "commune": "Saint-Firmin-des-Prés",
+    "cp": null,
+    "lieu_dit": "Le Champ du Four",
+    "parcelles": [
+      "C 54",
+      "C 55"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-09-22",
+    "preleveur": "L. Dumarais"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "TC-1",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre labourée",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "près anc. charbonnière"
+    },
+    {
+      "ref_echantillon": "TC-2",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "terre labourée",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "TC-3",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "prairie",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "TC-4",
+      "parcelle": null,
+      "profondeur_cm": "30-50",
+      "matrice": "terre labourée",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "sous TC-1"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-09-23",
+    "temperature_c": null,
+    "annotations": [
+      "N° dossier 26-0923-07"
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": null,
+      "champ": "telephone",
+      "avant": "06 39 98 52 71",
+      "apres": "06 39 98 52 17"
+    },
+    {
+      "echantillon": "TC-1",
+      "champ": "profondeur_cm",
+      "avant": "0-20",
+      "apres": "0-30"
+    },
+    {
+      "echantillon": null,
+      "champ": "prelevement.date",
+      "avant": null,
+      "apres": "2026-09-22"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

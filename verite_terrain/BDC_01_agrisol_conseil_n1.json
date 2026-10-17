@@ -1,0 +1,116 @@
+{
+  "fichier": "BDC_01_agrisol_conseil_n1.pdf",
+  "client": {
+    "raison_sociale": "AGRISOL CONSEIL",
+    "adresse": "4 rue des Semailles",
+    "cp": "37190",
+    "ville": "VERNOUILLE-SUR-INDRE",
+    "telephone": "02 61 91 23 58",
+    "email": "contact@agrisol-conseil.fr",
+    "contact": "Mathilde ROUSSEAU",
+    "siret": "81246639200018"
+  },
+  "commande": {
+    "numero": "AGS-2026-0914",
+    "date": "2026-09-13",
+    "delai": "urgent_J+5",
+    "annule_et_remplace": null,
+    "facturation": "AGRISOL CONSEIL (adresse ci-dessus), bon interne n° 26-0914.",
+    "remarques": "résultats par e-mail (rapport PDF + fichier CSV). Prévenir avant toute sous-traitance."
+  },
+  "site": {
+    "commune": "Vernouille-sur-Indre",
+    "cp": "37190",
+    "lieu_dit": "Les Grandes Ouches",
+    "parcelles": [
+      "ZB 112",
+      "ZB 113"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-09-12",
+    "preleveur": "M. ROUSSEAU"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "AGS-01",
+      "parcelle": "ZB 112",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "Zone de brûlage"
+    },
+    {
+      "ref_echantillon": "AGS-02",
+      "parcelle": "ZB 112",
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "AGS-03",
+      "parcelle": "ZB 112",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": "Témoin bordure"
+    },
+    {
+      "ref_echantillon": "AGS-04",
+      "parcelle": "ZB 113",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "AGS-05",
+      "parcelle": "ZB 113",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "Doublon de AGS-04"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-09-14",
+    "temperature_c": 5,
+    "annotations": [
+      "REVUE DE CONTRAT N. FERRAND",
+      "T° = 5 °C · 5 flacons OK",
+      "Urgent série GC-MS du 15/09"
+    ]
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

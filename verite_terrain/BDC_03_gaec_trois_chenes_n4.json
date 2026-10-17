@@ -1,0 +1,104 @@
+{
+  "fichier": "BDC_03_gaec_trois_chenes_n4.pdf",
+  "client": {
+    "raison_sociale": "Ferme des Grands Prés",
+    "adresse": "12 route de Bourges",
+    "cp": "18340",
+    "ville": "Plaimpied-le-Haut",
+    "telephone": "06 39 98 77 02",
+    "email": "fermegrandspres@courriel-agri.fr",
+    "contact": "Anne-Sophie Martel",
+    "siret": "53821604900011"
+  },
+  "commande": {
+    "numero": null,
+    "date": "2026-05-18",
+    "delai": "express_72h",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": null
+  },
+  "site": {
+    "commune": "Plaimpied-le-Haut",
+    "cp": null,
+    "lieu_dit": "Les Chaumes",
+    "parcelles": [
+      "C 27",
+      "C 117"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-05-18",
+    "preleveur": "A. Martel"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "GP-1",
+      "parcelle": null,
+      "profondeur_cm": "0-20",
+      "matrice": "jachère",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "GP-2",
+      "parcelle": null,
+      "profondeur_cm": "0-30",
+      "matrice": "jachère",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "ancien tas de fumier"
+    },
+    {
+      "ref_echantillon": "GP-3",
+      "parcelle": null,
+      "profondeur_cm": "30-50",
+      "matrice": "verger",
+      "analyses": [
+        "HAP16"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "GP-4",
+      "parcelle": null,
+      "profondeur_cm": "0-20",
+      "matrice": "prairie",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "ancien tas de fumier"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-05-21",
+    "temperature_c": null,
+    "annotations": [
+      "N° dossier 26-0521-14"
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": null,
+      "champ": "telephone",
+      "avant": "06 39 98 77 20",
+      "apres": "06 39 98 77 02"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "fichier": "BDC_02_coop_val_de_brenne_n1.pdf",
+  "client": {
+    "raison_sociale": "Coopérative agricole du Val de Brenne",
+    "adresse": "Route de Saint-Aignan, ZA des Moissons",
+    "cp": "41140",
+    "ville": "BRENNEVAL",
+    "telephone": "02 61 91 77 04",
+    "email": "agronomie@valdebrenne-coop.fr",
+    "contact": "Julien MARCHETTI",
+    "siret": "78125490300026"
+  },
+  "commande": {
+    "numero": "VB-26-0471",
+    "date": "2026-09-18",
+    "delai": "express_72h",
+    "annule_et_remplace": null,
+    "facturation": "Coopérative agricole du Val de Brenne, compte client 41-0087",
+    "remarques": "semis imminent · Résultats à adresser à : agronomie@valdebrenne-coop.fr (copie aux adhérents concernés)"
+  },
+  "site": {
+    "commune": null,
+    "cp": null,
+    "lieu_dit": null,
+    "parcelles": [
+      "Îlot 4",
+      "Îlot 5",
+      "ZK 41",
+      "ZK 42",
+      "B 208",
+      "B 209",
+      "ZA 17",
+      "ZA 18"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-09-16",
+    "preleveur": null
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "VB-0471-01",
+      "parcelle": "Îlot 4",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "pH"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0471-02",
+      "parcelle": "Îlot 5",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "pH"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0471-03",
+      "parcelle": "ZK 41",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": "bord de route départ."
+    },
+    {
+      "ref_echantillon": "VB-0471-04",
+      "parcelle": "ZK 42",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "ETM"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0471-05",
+      "parcelle": "B 208",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "pH"
+      ],
+      "hap_demande": true,
+      "observations": "ancien dépôt de mâchefers"
+    },
+    {
+      "ref_echantillon": "VB-0471-06",
+      "parcelle": "B 209",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "MS",
+        "pH"
+      ],
+      "hap_demande": false,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0471-07",
+      "parcelle": "ZA 17",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    },
+    {
+      "ref_echantillon": "VB-0471-08",
+      "parcelle": "ZA 18",
+      "profondeur_cm": "0-25",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": null
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-09-19",
+    "temperature_c": 6,
+    "annotations": [
+      "8 éch. reçus · glacière 6 °C · H.D."
+    ]
+  },
+  "ratures": [
+    {
+      "echantillon": "VB-0471-03",
+      "champ": "parcelle",
+      "avant": "ZK 14",
+      "apres": "ZK 41"
+    },
+    {
+      "echantillon": "VB-0471-06",
+      "champ": "hap_demande",
+      "avant": true,
+      "apres": false
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}

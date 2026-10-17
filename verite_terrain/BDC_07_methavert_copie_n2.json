@@ -1,0 +1,133 @@
+{
+  "fichier": "BDC_07_methavert_copie_n2.pdf",
+  "client": {
+    "raison_sociale": "SAS Méthavert",
+    "adresse": "Lieu-dit La Plaine",
+    "cp": "80140",
+    "ville": "Hornay-sur-Bresle",
+    "telephone": "03 53 01 64 88",
+    "email": "qualite@methavert.fr",
+    "contact": "Sébastien CARON",
+    "siret": "85137604200013"
+  },
+  "commande": {
+    "numero": "MV-2026-088",
+    "date": "2026-08-18",
+    "delai": "standard_10j",
+    "annule_et_remplace": null,
+    "facturation": null,
+    "remarques": "Résultats attendus au format CSV pour import dans le registre d'épandage."
+  },
+  "site": {
+    "commune": null,
+    "cp": null,
+    "lieu_dit": null,
+    "parcelles": [
+      "P01",
+      "P07",
+      "P13"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-08-17",
+    "preleveur": "S. CARON"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "MV-01",
+      "parcelle": "P01",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "après épandage J+30"
+    },
+    {
+      "ref_echantillon": "MV-02",
+      "parcelle": "P01",
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "avant épandage"
+    },
+    {
+      "ref_echantillon": "MV-03",
+      "parcelle": "P07",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "avant épandage"
+    },
+    {
+      "ref_echantillon": "MV-04",
+      "parcelle": "P07",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "après épandage J+30"
+    },
+    {
+      "ref_echantillon": "MV-05",
+      "parcelle": "P13",
+      "profondeur_cm": "30-60",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "ajouté sur le terrain"
+    },
+    {
+      "ref_echantillon": "MV-06",
+      "parcelle": "P13",
+      "profondeur_cm": "0-30",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "ajouté sur le terrain"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-08-19",
+    "temperature_c": null,
+    "annotations": []
+  },
+  "ratures": [
+    {
+      "echantillon": null,
+      "champ": "nombre_echantillons",
+      "avant": "4",
+      "apres": "6"
+    }
+  ],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    },
+    {
+      "controle": "total_corrige",
+      "niveau": "info"
+    }
+  ]
+}

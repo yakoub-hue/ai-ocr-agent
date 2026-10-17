@@ -1,0 +1,101 @@
+{
+  "fichier": "BDC_04_mission_sols_fax_n3.pdf",
+  "client": {
+    "raison_sociale": "Mission Sols & Territoires",
+    "adresse": "7 place du Marché",
+    "cp": "59570",
+    "ville": "ARVELLES",
+    "telephone": "03 53 01 77 20",
+    "email": "obs.sols@mst-asso.fr",
+    "contact": "Karim BENSALEM",
+    "siret": "44930217600034"
+  },
+  "commande": {
+    "numero": "MST/2026/259",
+    "date": "2026-09-03",
+    "delai": "standard_10j",
+    "annule_et_remplace": null,
+    "facturation": "Mission Sols & Territoires, convention 2026-04.",
+    "remarques": "rapport PDF + export CSV à obs.sols@mst-asso.fr. Merci de confirmer la réception par fax."
+  },
+  "site": {
+    "commune": "Arvelles",
+    "cp": "59570",
+    "lieu_dit": "Le Haut Pavé",
+    "parcelles": [
+      "AH 3",
+      "ZD 19"
+    ]
+  },
+  "prelevement": {
+    "date": "2026-09-02",
+    "preleveur": "T. NGUYEN"
+  },
+  "echantillons": [
+    {
+      "ref_echantillon": "MST-259-A1",
+      "parcelle": null,
+      "profondeur_cm": "0-5",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "10 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-259-A2",
+      "parcelle": null,
+      "profondeur_cm": "0-5",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": "25 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-259-A3",
+      "parcelle": null,
+      "profondeur_cm": "0-5",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS",
+        "COT"
+      ],
+      "hap_demande": true,
+      "observations": "50 m de la route"
+    },
+    {
+      "ref_echantillon": "MST-259-A4",
+      "parcelle": null,
+      "profondeur_cm": "0-5",
+      "matrice": "terre agricole",
+      "analyses": [
+        "HAP16",
+        "MS"
+      ],
+      "hap_demande": true,
+      "observations": "100 m de la route"
+    }
+  ],
+  "echantillons_annules": [],
+  "reception_labo": {
+    "date": "2026-09-03",
+    "temperature_c": null,
+    "annotations": [
+      "Saisi le 03/09 · H.D."
+    ]
+  },
+  "ratures": [],
+  "alertes": [
+    {
+      "controle": "siret_luhn",
+      "niveau": "avertissement"
+    }
+  ]
+}
